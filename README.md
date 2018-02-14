@@ -21,6 +21,9 @@ or
 $ python3 script.py delete
 ```
 
+Before running the script, please make sure you changed the `DOMAIN` variable with the domain name of your Confluence instance, as well as the `USERNAME` and `PASSWORD` essentials for your authentication.
+Posting new pages from the API requires admin rights.
+
 ## Script explanations
 
 The script as a main function which iterates through a directory, starting from the current position where the script was launched.
